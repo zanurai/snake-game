@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+}
+
+#scorebox {
+    position: absolute;
+    top: 9px;
+    right: 100px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+}
+
+#hiscorebox {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+}
+
+#border {
+    background: linear-gradient(lightgreen, yellow);
+    border: 3px solid black;
+    height: 565px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    margin-top: 3 0px;
+}
+
+.head {
+    background: linear-gradient(red, rgb(68, 167, 206));
+    border-radius: 60px;
+    border: 2px black solid;
+}
+
+.food {
+    background: linear-gradient(blue, green);
+    border-radius: 50px;
+}
+
+.snake {
+    background-color: purple;
+    border-radius: 50%;
+}
